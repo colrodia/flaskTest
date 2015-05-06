@@ -30,4 +30,4 @@ def about():
 
 if __name__ == '__main__':
     app.debug = True    # 자동으로 변경사항을 체크하여 리로드 되게
-    app.run()
+    app.run(host='0.0.0.0')
